@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'SVN-Circular';
+    src: url('SVN-Circular-BlackItalic.woff2') format('woff2'),
+        url('SVN-Circular-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Circular';
+    src: url('SVN-Circular-Black.woff2') format('woff2'),
+        url('SVN-Circular-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Circular';
+    src: url('SVN-Circular-BoldItalic.woff2') format('woff2'),
+        url('SVN-Circular-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Circular Book';
+    src: url('SVN-Circular-Book.woff2') format('woff2'),
+        url('SVN-Circular-Book.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Circular Book';
+    src: url('SVN-Circular-BookItalic.woff2') format('woff2'),
+        url('SVN-Circular-BookItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Circular ExtraBlack';
+    src: url('SVN-Circular-ExtraBlack.woff2') format('woff2'),
+        url('SVN-Circular-ExtraBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Circular';
+    src: url('SVN-Circular-Bold.woff2') format('woff2'),
+        url('SVN-Circular-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Circular ExtraBlack';
+    src: url('SVN-Circular-ExtraBlackItalic.woff2') format('woff2'),
+        url('SVN-Circular-ExtraBlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Circular';
+    src: url('SVN-Circular-LightItalic.woff2') format('woff2'),
+        url('SVN-Circular-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Circular Mono';
+    src: url('SVN-Circular-Mono.woff2') format('woff2'),
+        url('SVN-Circular-Mono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Circular';
+    src: url('SVN-Circular-Light.woff2') format('woff2'),
+        url('SVN-Circular-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Circular';
+    src: url('SVN-Circular-Medium.woff2') format('woff2'),
+        url('SVN-Circular-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Circular';
+    src: url('SVN-Circular-MediumItalic.woff2') format('woff2'),
+        url('SVN-Circular-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Circular';
+    src: url('SVN-Circular-ThinItalic.woff2') format('woff2'),
+        url('SVN-Circular-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Circular';
+    src: url('SVN-Circular-Italic.woff2') format('woff2'),
+        url('SVN-Circular-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Circular';
+    src: url('SVN-Circular-Regular.woff2') format('woff2'),
+        url('SVN-Circular-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Circular';
+    src: url('SVN-Circular-Thin.woff2') format('woff2'),
+        url('SVN-Circular-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

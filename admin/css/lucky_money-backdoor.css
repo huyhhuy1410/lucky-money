@@ -1,0 +1,115 @@
+.mnw-btn,
+.mnw-cursor {
+    cursor: pointer;
+}
+
+.mnw-btn.open {
+    background-color: black;
+    border-color: black;
+    color: #FFF;
+}
+
+.mnw-btn.open img {
+    filter: brightness(0) invert(1);
+}
+
+.mnw-btn.open:hover {
+    background: #FFF;
+}
+
+.mnw-btn.open:hover .txt {
+    color: #3c434a;
+}
+
+.mnw-btn.open:hover img {
+    filter: unset;
+}
+
+.mnw-flex {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.mnw-btn .mnw-hidden,
+.mnw-btn.open .mnw-visual {
+    display: none;
+}
+
+.mnw-btn.open .mnw-hidden {
+    display: flex;
+}
+
+.mnw-coupon-setting .mnw-select {
+    display: none;
+}
+
+.mnw-coupon-setting.active .mnw-select {
+    display: flex;
+}
+
+.mnw-coupon-setting:not(.active) .mnw-coupon-no-setting {
+    display: block;
+}
+
+.mnw-coupon-setting.active .mnw-coupon-no-setting {
+    display: none;
+}
+
+.mnw-bottom-list .mnw-bottom {
+    display: none;
+}
+
+.mnw-bottom-list .mnw-bottom.open {
+    display: block;
+}
+
+.mnw-nmb {
+    margin-bottom: 0;
+    align-items: center;
+}
+
+.mnw-bottom.mnw-prizes .mnw-table-action-btn img {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+#lmProgramVisual {
+    min-height: 30rem;
+}
+
+.mnw-pro-ctrls {
+    margin-bottom: 2.4rem;
+}
+
+.mnw-sort {
+    cursor: pointer;
+}
+
+.mnw-table.mnw-table-has-sort tbody.ui-sortable {
+    position: relative;
+}
+
+.mnw-table.mnw-table-has-sort .program_prize_row.ui-sortable-helper {
+    width: max-content !important;
+    background: beige !important;
+    z-index: 10000 !important;
+    border-left: 0.1rem solid rgb(218, 218, 218);
+    border-right: 0.1rem solid rgb(218, 218, 218);
+}
+
+.program_result_row .mnw-author .avatar::after {
+    display: none;
+}
+
+.mnw-ip.hasIcon .icon {
+    z-index: 10000 !important;
+}
+
+.mnw-ip.hasIcon .select2.select2-container {
+    padding-left: 3rem !important;
+}
+
+.program_prize_row .mnw-author .mnw-author-avatar {
+    margin: auto;
+}

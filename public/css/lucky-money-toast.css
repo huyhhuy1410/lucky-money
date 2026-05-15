@@ -1,0 +1,149 @@
+#lucky-money-toast {
+  position: fixed;
+  top: 72px;
+  right: 32px;
+  z-index: 999999;
+}
+
+.toast-wrap {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+  -webkit-align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 15px 0;
+  min-width: 350px;
+  width: auto;
+  border-left: 4px solid;
+  -webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.08);
+  transition: all linear 0.3s;
+  margin-bottom: 8px;
+  position: relative;
+  overflow: hidden;
+}
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
+
+.toast--success {
+  border-color: #47d864;
+}
+
+.toast--success .toast__icon {
+  color: #47d864;
+}
+
+.toast--info {
+  border-color: #2f86eb;
+}
+
+.toast--info .toast__icon {
+  color: #2f86eb;
+}
+
+.toast--warning {
+  border-color: #ffc021;
+}
+
+.toast--warning .toast__icon {
+  color: #ffc021;
+}
+
+.toast--error {
+  border-color: #ff623d;
+}
+
+.toast--error .toast__icon {
+  color: #ff623d;
+}
+
+.toast + .toast {
+  margin-top: 24px;
+}
+
+.toast__icon {
+  font-size: 24px;
+}
+
+.toast__icon,
+.toast__close {
+  padding: 0 16px;
+}
+
+.toast__body {
+  flex-grow: 1;
+}
+
+.toast__title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin: 0px 0 4px 0;
+}
+
+.toast__msg {
+  font-size: 14px;
+  color: #888;
+  margin-top: 6px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.toast__close {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.toast-wrap .progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background: #ddd;
+}
+
+.toast-wrap .progress:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.toast--success .progress:before {
+  background-color: #47d864;
+}
+
+.toast--info .progress:before {
+  background-color: #2f86eb;
+}
+
+.toast--warning .progress:before {
+  background-color: #ffc021;
+}
+
+.toast--error .progress:before {
+  background-color: #ff623d;
+}
+
+.toast-wrap .progress:before {
+  animation: progress 5s linear forwards;
+}
+
+@keyframes progress {
+  100% {
+    right: 100%;
+  }
+}

@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'STIX Two Text';
+    src: url('STIXTwoText-Bold.woff2') format('woff2'),
+        url('STIXTwoText-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'STIX Two Text';
+    src: url('STIXTwoText-BoldItalic.woff2') format('woff2'),
+        url('STIXTwoText-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'STIX Two Text';
+    src: url('STIXTwoText-Italic.woff2') format('woff2'),
+        url('STIXTwoText-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'STIX Two Text';
+    src: url('STIXTwoText-Regular.woff2') format('woff2'),
+        url('STIXTwoText-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'STIX Two Text';
+    src: url('STIXTwoText-MediumItalic.woff2') format('woff2'),
+        url('STIXTwoText-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'STIX Two Text';
+    src: url('STIXTwoText-Medium.woff2') format('woff2'),
+        url('STIXTwoText-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'STIX Two Text';
+    src: url('STIXTwoText-SemiBoldItalic.woff2') format('woff2'),
+        url('STIXTwoText-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'STIX Two Text';
+    src: url('STIXTwoText-SemiBold.woff2') format('woff2'),
+        url('STIXTwoText-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

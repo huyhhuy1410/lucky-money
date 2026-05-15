@@ -1,0 +1,6 @@
+[
+  {"name": "KHÔNG TRÚNG", "quantity": 20, "colorBg": "red", "colorText": "white"},
+  {"name": "THE HOODIE", "quantity": 1, "colorBg": "green", "colorText": "black"},
+  {"name": "THE CAP", "quantity": 5, "colorBg": "blue", "colorText": "yellow"},
+  {"name": "THE STICKER", "quantity": 10, "colorBg": "green", "colorText": "white"}
+]
