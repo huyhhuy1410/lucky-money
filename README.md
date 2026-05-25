@@ -1,6 +1,6 @@
-# Lucky Money for WordPress
+# Lucky Money for Woocommerce and WordPress
 
-A WordPress campaign/gamification plugin for running "lucky money" prize campaigns. It provides a frontend gift-opening experience, admin prize management, result tracking, reporting, email notification, and optional WooCommerce coupon integration.
+A WooCommerce and WordPress campaign/gamification plugin for running "lucky money" prize campaigns. It provides a frontend gift-opening experience, admin prize management, result tracking, reporting, email notification, and optional WooCommerce coupon integration.
 
 ## What It Does
 
@@ -47,7 +47,7 @@ A WordPress campaign/gamification plugin for running "lucky money" prize campaig
   - `lm_ajax_result_report_ajax`
   - `lm_ajax_program_result_received`
 - Uses custom database tables for programs, prizes, results, and email data.
-- Uses WordPress filters/actions to keep prize drawing, validation, import, and email sending extensible.
+- Uses Woocommerce and WordPress filters/actions to keep prize drawing, validation, import, and email sending extensible.
 
 ## Installation
 
