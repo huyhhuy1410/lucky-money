@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 @import url("../assets/library/fontawesome/css/all.css");
 @import url("../assets/library/fontawesome/fontawesome/fontawesome.css");
 /* @import url("../assets/library/aos/aos.css");
@@ -12,10 +12,6 @@
 @import url("../assets/library/datetime/daterangepicker.css");
 @import url("../assets/library/splide/splide.min.css");
 @import url("../assets/library/locomotive/locomotive-scroll.min.css"); */
-@import url("../assets/font/BrandonGrotesque/stylesheet.css");
-@import url("../assets/font/LNTH-DeBorstels/stylesheet.css");
-@import url("../assets/font/Inter/stylesheet.css");
-@import url("../assets/font/VinaSans/stylesheet.css");
 html,
 body,
 div,
@@ -213,7 +209,7 @@ table {
   border-left: 10px solid #ccc;
   margin: 1em 0;
   padding: 1em;
-  quotes: "“" "”" "‘" "’"; }
+  quotes: "â€œ" "â€" "â€˜" "â€™"; }
   .lucky-money-content blockquote::before {
     color: #ccc;
     content: open-quote;
@@ -2260,7 +2256,7 @@ img {
       --f-sz: clamp(1.7rem, calc(1.2984rem + 0.5738vw), 2.4rem);
       font-size: var(--f-sz);
       font-weight: 500;
-      font-family: "BourbonGrotesque", sans-serif;
+      font-family: "Outfit", sans-serif;
       margin-bottom: 1rem; }
     @media screen and (max-width: 1200px) {
       .ft-it {
@@ -2543,7 +2539,7 @@ img {
       -ms-flex-wrap: wrap;
       flex-wrap: wrap;
       gap: 0.5rem;
-      font-family: "BourbonGrotesque", sans-serif; }
+      font-family: "Outfit", sans-serif; }
       .mobile-content-bl .name {
         display: -moz-flex;
         display: -ms-flex;
@@ -3143,7 +3139,7 @@ img {
   color: #384252;
   opacity: .5;
   font-weight: 400;
-  font-family: "BourbonGrotesque", sans-serif; }
+  font-family: "Outfit", sans-serif; }
   .dateTimeText.disable {
     opacity: 0;
     visibility: hidden; }
@@ -3165,7 +3161,7 @@ img {
   font-family: "Inter", sans-serif;
   border-radius: inherit;
   background-color: white;
-  font-family: "BourbonGrotesque", sans-serif; }
+  font-family: "Outfit", sans-serif; }
 
 .h-bn {
   position: relative; }
@@ -3203,7 +3199,7 @@ img {
     --f-sz: clamp(2rem, calc(0.3934rem + 2.2951vw), 4.8rem);
     font-size: var(--f-sz);
     font-weight: 500;
-    font-family: "BourbonGrotesque", sans-serif; }
+    font-family: "Outfit", sans-serif; }
 
 .bn {
   padding-top: calc(var(--size-hd) + var(--pd-sc));
@@ -5634,19 +5630,19 @@ table .status {
   --f-sz: clamp(2.5rem, calc(0.4918rem + 2.8689vw), 6rem);
   font-size: var(--f-sz);
   font-weight: 700;
-  font-family: "BourbonGrotesque", sans-serif; }
+  font-family: "Outfit", sans-serif; }
 
 .title-48 {
   --f-sz: clamp(2rem, calc(0.3934rem + 2.2951vw), 4.8rem);
   font-size: var(--f-sz);
-  font-family: "BourbonGrotesque", sans-serif;
+  font-family: "Outfit", sans-serif;
   font-weight: 500; }
 
 .title-40 {
   --f-sz: clamp(2.7rem, calc(1.9541rem + 1.0656vw), 4rem);
   font-size: var(--f-sz);
   font-weight: 700;
-  font-family: "BourbonGrotesque", sans-serif; }
+  font-family: "Outfit", sans-serif; }
 
 .desc-32 {
   --f-sz: clamp(2.2rem, calc(1.6262rem + 0.8197vw), 3.2rem);
@@ -5654,7 +5650,7 @@ table .status {
   font-weight: 500;
   font-style: italic;
   color: var(--color-pri);
-  font-family: "BourbonGrotesque", sans-serif; }
+  font-family: "Outfit", sans-serif; }
   .desc-32 .char {
     -webkit-transition: 0.2s calc(var(--char-index) * 0.01s) ease-in-out;
     transition: 0.2s calc(var(--char-index) * 0.01s) ease-in-out; }
@@ -5926,7 +5922,7 @@ table .status {
   transition: 0.4s; }
   .dateTag-txt {
     color: var(--color-pri);
-    font-family: "BourbonGrotesque", sans-serif;
+    font-family: "Outfit", sans-serif;
     font-size: 1em;
     font-weight: 500; }
   .dateTag-month {
@@ -6864,7 +6860,7 @@ table .status {
     --f-sz: clamp(1.6rem, calc(1.3705rem + 0.3279vw), 2rem);
     font-size: var(--f-sz);
     font-weight: 700;
-    font-family: "BourbonGrotesque", sans-serif;
+    font-family: "Outfit", sans-serif;
     line-height: 1;
     -webkit-transition: .4s;
     transition: .4s; }
@@ -7087,7 +7083,7 @@ table .status {
     --f-sz: clamp(1.7rem, calc(1.2984rem + 0.5738vw), 2.4rem);
     font-size: var(--f-sz);
     font-weight: 700;
-    font-family: "BourbonGrotesque", sans-serif;
+    font-family: "Outfit", sans-serif;
     margin-bottom: 2.4rem; }
   .sv-dt-side .wrapper {
     padding-left: 1.6rem;
@@ -7414,7 +7410,7 @@ table .status {
     font-size: var(--f-sz);
     font-weight: 700;
     margin-bottom: 2.4rem;
-    font-family: "BourbonGrotesque", sans-serif; }
+    font-family: "Outfit", sans-serif; }
 
 @media screen and (max-width: 390px) {
   .exp-all-l .rows-4 .col {
@@ -7622,7 +7618,7 @@ table .status {
   font-weight: 600;
   font-style: italic;
   color: var(--color-pri);
-  font-family: "BourbonGrotesque", sans-serif; }
+  font-family: "Outfit", sans-serif; }
 
 .team-dt-images {
   width: calc(5.5/12*100%); }
@@ -8205,12 +8201,12 @@ html:has(.page-lixi) .ft {
     color: #B20E0E;
     text-transform: uppercase;
     line-height: 1.2;
-    font-family: "BourbonGrotesque", sans-serif; }
+    font-family: "Outfit", sans-serif; }
   .lixi-intro .lixi-popup-content .wish {
     font-size: 1.3em;
-    font-family: "BourbonGrotesque", sans-serif; }
+    font-family: "Outfit", sans-serif; }
   .lixi-intro .lixi-popup-content .wish-des {
-    font-family: "LNTH-DeBorstel", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #B20E0E;
     font-size: 1em; }
   @media screen and (max-width: 1200px) {
@@ -8522,10 +8518,10 @@ html:has(.page-lixi) .ft {
     position: absolute;
     top: 0;
     pointer-events: none;
-    /* Tránh các sự kiện không mong muốn */
+    /* TrÃ¡nh cÃ¡c sá»± kiá»‡n khÃ´ng mong muá»‘n */
     -webkit-animation: fall linear infinite;
     animation: fall linear infinite;
-    /* Hiệu ứng mặc định */
+    /* Hiá»‡u á»©ng máº·c Ä‘á»‹nh */
     will-change: transform; }
 
 .boxDropFrame {
@@ -9330,10 +9326,10 @@ html:has(.page-fri) .popups-content {
     position: absolute;
     top: 0;
     pointer-events: none;
-    /* Tránh các sự kiện không mong muốn */
+    /* TrÃ¡nh cÃ¡c sá»± kiá»‡n khÃ´ng mong muá»‘n */
     -webkit-animation: fall linear infinite;
     animation: fall linear infinite;
-    /* Hiệu ứng mặc định */
+    /* Hiá»‡u á»©ng máº·c Ä‘á»‹nh */
     will-change: transform; }
 
 .boxDropFrame {
@@ -9357,4 +9353,5 @@ html:has(.page-fri) .popups-content {
   top: 0;
   left: 0;
   pointer-events: none; }
+
 

@@ -45,6 +45,7 @@ function lucky_money_enqueue_styles_scripts()
 
         if (strpos($page_template, 'boclixi.index.php') !== false) {
             // Enqueue CSS
+            wp_enqueue_style('lucky_money-google-fonts', 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;600;700&family=Outfit:wght@400;600;700&family=Vina+Sans&display=swap', array(), null);
             wp_enqueue_style('lucky_money-style', LUCKY_MONEY_URL . '/public/css/style.css', array(), rand());
             wp_enqueue_style('lucky_money-toast', LUCKY_MONEY_URL . '/public/css/lucky-money-toast.css', array(), rand());
             wp_enqueue_style('lucky_money-backdoor', LUCKY_MONEY_URL . '/public/css/backdoor.css', array(), rand());
@@ -120,6 +121,7 @@ function lm_render_lucky_money_field_template_shortcode($atts)
         if ($current_date > $end_date)
             return;
     }
+    wp_enqueue_style('lucky_money-google-fonts', 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;600;700&family=Outfit:wght@400;600;700&family=Vina+Sans&display=swap', array(), null);
     wp_enqueue_style('lucky_money-style', LUCKY_MONEY_URL . '/public/css/style.css', array(), rand());
     wp_enqueue_style('lucky_money-toast', LUCKY_MONEY_URL . '/public/css/lucky-money-toast.css', array(), rand());
     wp_enqueue_style('lucky_money-backdoor', LUCKY_MONEY_URL . '/public/css/backdoor.css', array(), rand());
