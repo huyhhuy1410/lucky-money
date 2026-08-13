@@ -99,6 +99,12 @@ lucky-money/
 
 ---
 
+## 🤝 Contributing
+
+Contributions, bug reports, and feature proposals are welcome! Feel free to open an issue or submit a Pull Request.
+
+---
+
 ## 📄 License & Provenance Notice
 
 This plugin is an **independent open-source project** created by Vo Quang Huy for technical demonstration and e-commerce gamification. It contains no confidential employer secrets or proprietary client data.
